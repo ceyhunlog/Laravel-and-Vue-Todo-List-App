@@ -430,8 +430,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .mr-2 {
   margin-right: 0.5rem;
 }
+.mt-1 {
+  margin-top: 0.25rem;
+}
+.ml-5 {
+  margin-left: 1.25rem;
+}
 .flex {
   display: flex;
+}
+.list-item {
+  display: list-item;
 }
 .w-\[350px\] {
   width: 350px;
@@ -480,6 +489,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-\[\#999999\] {
   --tw-text-opacity: 1;
   color: rgb(153 153 153 / var(--tw-text-opacity));
+}
+.text-\[\#ff0000\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 0 0 / var(--tw-text-opacity));
+}
+.line-through {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
 }
 .outline-none {
   outline: 2px solid transparent;
