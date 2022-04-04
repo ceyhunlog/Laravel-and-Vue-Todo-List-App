@@ -1,9 +1,11 @@
 <template>
-    <h1>Vue</h1>
+  <h1 class="">
+    Hello world!
+  </h1>
 </template>
 
 <script>
-    export default { // 27.37
+    export default {
         mounted() {
             console.log('Component mounted.')
         }
