@@ -1,6 +1,6 @@
 <template>
     <div>
-        List Vue
+        List View
     </div>
 </template>
 
